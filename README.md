@@ -1,12 +1,40 @@
-# React + Vite
+# 🧾 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and minimal expense tracking app built with **React.js**. Easily add and remove expense entries to keep track of your spending.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live app: [https://spendingtrack.netlify.app](https://spendingtrack.netlify.app)
 
-## Expanding the ESLint configuration
+## 🧠 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add expense items
+- Delete expense items
+- Lightweight and fast
+- Clean and responsive UI
+
+> ⚠️ Note: This app does **not** store data persistently. All data will be lost upon page refresh.
+
+## 🛠️ Built With
+
+- React.js (Functional Components and Hooks)
+- CSS for styling
+- Netlify (for deployment)
+
+
+
+# 📂 Folder Structure
+Expense-tracker/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+├── package.json
+└── README.md
+🌐 Deployment
+This app is deployed using Netlify.
+Live URL: https://spendingtrack.netlify.app
+
+#  Author
+@4512yasir
