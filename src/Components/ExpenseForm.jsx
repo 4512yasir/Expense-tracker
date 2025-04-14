@@ -53,7 +53,10 @@ function ExpenseForm({ onAddExpense }) {
       placeholder="Enter amount" 
       onChange={handleChange} 
       value={formData.amount} />
-      <input type="date" name="date" onChange={handleChange} value={formData.date} />
+      <input type="date"
+       name="date" 
+       onChange={handleChange}
+        value={formData.date} />
       <button type="submit">Submit</button>
     </form>
   );

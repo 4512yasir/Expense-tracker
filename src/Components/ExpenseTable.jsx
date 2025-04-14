@@ -1,3 +1,5 @@
+import React from "react";
+
 function ExpenseTable({ expenses, onDeleteExpense, onSort, sortBy, sortDirection }) {
     const getSortIcon = (key) => {
       if (sortBy !== key) return '';
